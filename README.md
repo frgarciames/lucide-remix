@@ -18,13 +18,14 @@ Lucide icon library for Remix 3 applications.
   <a href="https://lucide.dev/guide/">About</a>
   ·
   <a href="https://lucide.dev/icons/">Icons</a>
-  ·
-  <a href="https://lucide.dev/license">License</a>
 </p>
 
 # Lucide Remix
 
 Implementation of the Lucide icon library for Remix 3 applications.
+
+> [!IMPORTANT]
+> This is **not** an official Lucide library. It is a community-maintained project.
 
 ## Installation
 
