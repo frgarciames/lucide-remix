@@ -1,0 +1,3 @@
+import { Signpost as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const Signpost = createIcon(iconNode)

@@ -1,0 +1,3 @@
+import { FilePieChart as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const FilePieChart = createIcon(iconNode)

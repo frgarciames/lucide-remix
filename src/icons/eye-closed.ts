@@ -1,0 +1,3 @@
+import { EyeClosed as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const EyeClosed = createIcon(iconNode)

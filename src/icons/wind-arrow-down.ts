@@ -1,0 +1,3 @@
+import { WindArrowDown as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const WindArrowDown = createIcon(iconNode)

@@ -1,0 +1,3 @@
+import { ArrowLeftCircle as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const ArrowLeftCircle = createIcon(iconNode)

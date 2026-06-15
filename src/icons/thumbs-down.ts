@@ -1,0 +1,3 @@
+import { ThumbsDown as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const ThumbsDown = createIcon(iconNode)

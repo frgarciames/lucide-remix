@@ -1,0 +1,3 @@
+import { PackagePlus as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const PackagePlus = createIcon(iconNode)

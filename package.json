@@ -1,0 +1,36 @@
+{
+  "name": "lucide-remix",
+  "version": "0.0.3",
+  "description": "Lucide icons for Remix 3",
+  "type": "module",
+  "license": "ISC",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./icons/*": {
+      "types": "./dist/icons/*.d.ts",
+      "import": "./dist/icons/*.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "generate": "node scripts/generate-icons.mjs",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "lucide": "^1.18.0"
+  },
+  "devDependencies": {
+    "remix": "^3.0.0-beta.4",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "remix": "^3.0.0-beta.4"
+  }
+}

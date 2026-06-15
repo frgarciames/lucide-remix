@@ -1,0 +1,3 @@
+import { PhoneMissed as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const PhoneMissed = createIcon(iconNode)

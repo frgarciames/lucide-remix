@@ -1,0 +1,3 @@
+import { ClipboardX as iconNode } from 'lucide'
+import { createIcon } from '../create-icon.js'
+export const ClipboardX = createIcon(iconNode)
