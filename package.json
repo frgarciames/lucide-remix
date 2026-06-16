@@ -3,6 +3,11 @@
   "version": "0.0.4",
   "description": "Lucide icons for Remix 3",
   "type": "module",
+  "homepage": "https://github.com/frgarciames/lucide-remix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frgarciames/lucide-remix"
+  },
   "license": "ISC",
   "sideEffects": false,
   "exports": {
