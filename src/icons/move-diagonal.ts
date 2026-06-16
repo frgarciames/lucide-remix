@@ -1,3 +1,4 @@
-import { MoveDiagonal as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M11 19H5v-6"}],["path",{"d":"M13 5h6v6"}],["path",{"d":"M19 5 5 19"}]]
 export const MoveDiagonal = createIcon(iconNode)

@@ -1,3 +1,4 @@
-import { TextCursor as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M17 22h-1a4 4 0 0 1-4-4V6a4 4 0 0 1 4-4h1"}],["path",{"d":"M7 22h1a4 4 0 0 0 4-4"}],["path",{"d":"M7 2h1a4 4 0 0 1 4 4"}]]
 export const TextCursor = createIcon(iconNode)

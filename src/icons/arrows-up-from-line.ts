@@ -1,3 +1,4 @@
-import { ArrowsUpFromLine as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"m4 6 3-3 3 3"}],["path",{"d":"M7 17V3"}],["path",{"d":"m14 6 3-3 3 3"}],["path",{"d":"M17 17V3"}],["path",{"d":"M4 21h16"}]]
 export const ArrowsUpFromLine = createIcon(iconNode)

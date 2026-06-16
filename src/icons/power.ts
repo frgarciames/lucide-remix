@@ -1,3 +1,4 @@
-import { Power as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M12 2v10"}],["path",{"d":"M18.4 6.6a9 9 0 1 1-12.77.04"}]]
 export const Power = createIcon(iconNode)

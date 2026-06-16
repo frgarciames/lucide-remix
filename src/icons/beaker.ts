@@ -1,3 +1,4 @@
-import { Beaker as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M4.5 3h15"}],["path",{"d":"M6 3v16a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V3"}],["path",{"d":"M6 14h12"}]]
 export const Beaker = createIcon(iconNode)

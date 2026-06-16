@@ -35,9 +35,11 @@ mkdirSync(outDir, { recursive: true })
 for (const [file, names] of groups) {
   const primary = names[0]
   const aliases = names.slice(1)
+  const iconData = JSON.stringify(lucide[primary])
   const lines = [
-    `import { ${primary} as iconNode } from 'lucide'`,
-    "import { createIcon } from '../create-icon.js'",
+    `import type { IconNode } from 'lucide'`,
+    `import { createIcon } from '../create-icon.js'`,
+    `const iconNode: IconNode = ${iconData}`,
     `export const ${primary} = createIcon(iconNode)`,
     ...aliases.map((alias) => `export const ${alias} = ${primary}`),
     '',

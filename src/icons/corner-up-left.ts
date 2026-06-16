@@ -1,3 +1,4 @@
-import { CornerUpLeft as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M20 20v-7a4 4 0 0 0-4-4H4"}],["path",{"d":"M9 14 4 9l5-5"}]]
 export const CornerUpLeft = createIcon(iconNode)

@@ -1,3 +1,4 @@
-import { GalleryVertical as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"M3 2h18"}],["rect",{"width":"18","height":"12","x":"3","y":"6","rx":"2"}],["path",{"d":"M3 22h18"}]]
 export const GalleryVertical = createIcon(iconNode)

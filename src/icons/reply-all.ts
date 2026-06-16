@@ -1,3 +1,4 @@
-import { ReplyAll as iconNode } from 'lucide'
+import type { IconNode } from 'lucide'
 import { createIcon } from '../create-icon.js'
+const iconNode: IconNode = [["path",{"d":"m12 17-5-5 5-5"}],["path",{"d":"M22 18v-2a4 4 0 0 0-4-4H7"}],["path",{"d":"m7 17-5-5 5-5"}]]
 export const ReplyAll = createIcon(iconNode)
